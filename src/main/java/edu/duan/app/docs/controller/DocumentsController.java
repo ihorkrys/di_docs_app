@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@RequestMapping("/documents")
 public class DocumentsController {
     private DocumentsService documentsService;
 
